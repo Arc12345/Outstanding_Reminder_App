@@ -1,0 +1,30 @@
+# --- Private data: never commit these ---------------------------------
+# reminders.db holds settings, the WhatsApp access token and send history.
+reminders.db
+reminders.db-journal
+*.db
+weekly-list.xlsx
+weekly-list.csv
+auto-send.log
+*.xlsx
+*.csv
+!docs/*.xlsx
+
+# --- Build output -------------------------------------------------------
+build/
+dist/
+*.spec
+*.exe
+
+# --- Python -------------------------------------------------------------
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# --- OS / editors ------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
